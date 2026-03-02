@@ -1,25 +1,27 @@
 # Exemplo de tupla em Python.
-# Tupla e uma colecao ordenada de valores, parecida com lista.
+# Tupla e uma colecao ordenada, parecida com uma lista.
 # A principal diferenca e que a tupla e imutavel:
-# depois de criada, seus itens nao podem ser alterados, adicionados ou removidos.
-# Diferenca para a lista:
-# - lista usa [] e pode ser alterada
-# - tupla usa () e nao pode ser alterada depois de criada
-# Em resumo: lista serve para dados que mudam; tupla, para dados fixos.
-# Ela normalmente e usada quando os dados devem permanecer fixos.
+# depois de criada, seus itens nao podem ser alterados.
+#
+# Resumo rapido:
+# - lista usa [] e pode ser modificada
+# - tupla usa () e nao pode ser modificada
+# - tupla e util quando os dados devem permanecer fixos
+# - como ela e ordenada, e possivel acessar os itens por indice
 
 filmsTuple = (
     "Inception",
     "The Shawshank Redemption",
-    "The Dark Kgnith",
+    "The Dark Knight",
     "Pulp Fiction",
     "Interstellar",
 )
 
-# Mostra o tipo da variavel para confirmar que e uma tupla.
+# Mostra o tipo da variavel para confirmar que ela e uma tupla.
 print(type(filmsTuple))
 
 # Como a tupla e ordenada, os itens podem ser acessados por indice e slice.
+# Abaixo, cada exemplo mostra uma forma comum de consulta.
 
 # 1. Busca os dois primeiros itens da tupla.
 print(filmsTuple[:2])
@@ -35,4 +37,5 @@ print(filmsTuple[:3])
 print(filmsTuple[2:])
 
 # 5. index(valor) retorna a posicao do item informado.
+# Isso e util quando voce sabe o valor e quer descobrir onde ele esta.
 print(filmsTuple.index("Pulp Fiction"))
