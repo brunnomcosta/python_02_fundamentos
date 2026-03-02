@@ -21,3 +21,4 @@ texto = "Python"
 print(numero_inteiro)
 print(numero_decimal)
 print(texto)
+

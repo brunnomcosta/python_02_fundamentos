@@ -8,7 +8,7 @@ Cada arquivo foi pensado para estudar um conceito de cada vez, com scripts peque
 
 Uma ordem simples e eficiente:
 
-1. Comece pelos arquivos numerados (`01` a `14`), porque eles apresentam os conceitos.
+1. Comece pelos arquivos numerados (`01` a `23`), porque eles apresentam os conceitos.
 2. Em seguida, rode os arquivos `ex*.py`, que reforcam a pratica com pequenos desafios.
 3. Antes de executar, tente prever a saida do programa.
 4. Depois, altere os valores e teste novamente para observar o comportamento do Python.
@@ -32,10 +32,20 @@ Arquivos de conceito:
 - `12-set.py`: introducao a sets
 - `13-dicionario.py`: introducao a dicionarios
 - `14-dicionario_aninhado.py`: dicionarios dentro de dicionarios
+- `15-condicao.py`: estruturas condicionais com `if`, `elif` e `else`
+- `16-for.py`: repeticao com `for`, `break`, `continue` e `range()`
+- `17-while.py`: repeticao com `while` e controle manual de condicao
+- `18-list_comprehension.py`: criacao e filtro de listas com list comprehension
+- `19-funcao.py`: introducao a funcoes e retorno de valores
+- `20-args_func.py`: parametros, argumentos e `*args`
+- `21-funcao_recursiva.py`: recursao com caso base e chamada da propria funcao
+- `22-funcoes_args_kwargs.py`: uso de `*args` e `**kwargs`
+- `23-lambda_func.py`: funcoes `lambda` e usos simples com expressoes curtas
 
 Arquivos de exercicio:
 
 - `ex1.py`: exercicios simples com strings e formatacao
+- `ex2.py`: exercicio introdutorio de pratica
 - `ex6.py`: exercicio com listas
 - `ex7.py`: exercicio com tupla
 - `ex8.py`: exercicio com set
@@ -60,6 +70,15 @@ python 11-tupla.py
 python 12-set.py
 python 13-dicionario.py
 python 14-dicionario_aninhado.py
+python 15-condicao.py
+python 16-for.py
+python 17-while.py
+python 18-list_comprehension.py
+python 19-funcao.py
+python 20-args_func.py
+python 21-funcao_recursiva.py
+python 22-funcoes_args_kwargs.py
+python 23-lambda_func.py
 python ex8.py
 python ex9.py
 ```
@@ -72,6 +91,10 @@ Se o arquivo usar `input()`, digite os valores solicitados e pressione Enter apo
 - `tuple` preserva a ordem dos elementos, aceita repeticao e nao pode ser alterada.
 - `set` nao garante ordem de exibicao e remove valores repetidos automaticamente.
 - `dict` armazena dados no formato `chave: valor` e facilita organizar informacoes nomeadas.
+- `if`, `elif` e `else` permitem tomar decisoes diferentes com base em condicoes.
+- `for` e `while` sao usados para repetir tarefas.
+- funcoes ajudam a organizar o codigo e evitar repeticao.
+- `lambda` e util para funcoes curtas e simples.
 - Por causa disso, a ordem mostrada ao imprimir um `set` pode variar.
 
 ## Requisitos
@@ -85,5 +108,5 @@ Este repositorio serve para:
 
 - entender a sintaxe basica do Python
 - praticar entrada e saida de dados
-- estudar strings, listas, tuplas, sets, dicionarios e operadores
+- estudar strings, listas, tuplas, sets, dicionarios, operadores, condicionais, lacos e funcoes
 - reforcar conceitos com exercicios curtos e diretos
